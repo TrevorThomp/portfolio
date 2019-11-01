@@ -1,311 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  
-  <header id="main-header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="main-header">
       <div class="inner">
-          <div class="navbar">
-              <ul>
-                  <li class="nav-items">
-                      <a  class="nav-links" href="#main-header">Home</a>
-                  <li class="nav-items">
-                      <a class="nav-links" id="portfolio-button" href="#portfolio">Portfolio</a>
-                  </li>
-                  <li class="nav-items">
-                      <a class="nav-links" href="#profile">Profile</a>
-                  </li>
-                  <li class="nav-items">
-                      <a class="nav-links" href="#contact">Contact</a>
-                  </li>
-              </ul>   
-          </div>
-      </div>
-  </header>
-  
+        <div class="navbar">
+          <ul>
+            <li class="nav-items">
+              <a class="nav-links" href="#main-header">Home</a>
+            </li>
 
-  <div class="description">
+            <li class="nav-items">
+              <a class="nav-links" id="portfolio-button" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-items">
+              <a class="nav-links" href="#profile">Profile</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-links" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+    <div class="description">
       <p>Hello, I'm <span class="name">Trevor Thompson.</span></p>
       <p>I'm a Software Developer</p>
-  </div>
+    </div>
 
-      <div class="center-con">
-          <div class="round">
-              <span class="dropdown"></span>
-              <span class="dropdown"></span>
-              <span class="dropdown"></span>
-              <span class="dropdown"></span>
+    <div class="center-con">
+      <div class="round">
+        <span class="dropdown"></span>
+        <span class="dropdown"></span>
+        <span class="dropdown"></span>
+        <span class="dropdown"></span>
+      </div>
+    </div>
+
+    <div class="profile-container" id="profile">
+      <p class="profile-title">About Me</p>
+
+      <div class="about-container">
+        <div class="intro-container">
+          <p>
+            Hello! My name is Trevor Thompson and I'm a Front-End Developer
+            based in Bend, Oregon.
+          </p>
+          <p>
+            I am a person who is highly passionate about development
+            technologies and how things operate behind the scenes. I'm primarily
+            focused on creating mobile-first responsive websites and web
+            applications. I'm constantly learning new web technologies and ways
+            to improve development to make components run as efficiently as
+            possible.
+          </p>
+        </div>
+        <hr class="style-three" />
+        <h2 class="skills-title">My Skills</h2>
+        <ul class="skills-container">
+          <li class="skills">
+            <img src="images/svg/html-5.svg" alt="HTML5" class="svg-icons" />
+            <p>HTML5</p>
+          </li>
+          <li class="skills">
+            <img
+              src="images/svg/css-3_official.svg"
+              alt="CSS3"
+              class="svg-icons"
+            />
+            <p>CSS3</p>
+          </li>
+          <li class="skills">
+            <img
+              src="images/svg/javascript.svg"
+              alt="Javascript"
+              class="svg-icons"
+            />
+            <p>JavaScript</p>
+          </li>
+          <li class="skills">
+            <img
+              src="images/svg/bootstrap.svg"
+              alt="bootstrap"
+              class="svg-icons"
+            />
+            <p>Bootstrap</p>
+          </li>
+          <li class="skills">
+            <img
+              src="images/svg/git-icon.svg"
+              alt="Git Icon"
+              class="svg-icons"
+            />
+            <p>Git</p>
+          </li>
+          <li class="skills">
+            <img
+              src="images/svg/node-sass.svg"
+              alt="Node Sass"
+              class="svg-icons"
+            />
+            <p>Sass</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Portfolio Page -->
+
+    <p class="portfolio-title" id="portfolio">Portfolio</p>
+
+    <div class="portfolio-container">
+      <div class="project-container">
+        <div class="image-container">
+          <img
+            src="images/TheCodeReview.JPG"
+            alt="Online Registration Form"
+            class="project-image"
+          />
+        </div>
+        <hr class="style-two" />
+
+        <div class="mobile-overlay">
+          <p>Online Registration Form built with HTML and CSS</p>
+          <div class="code-source">
+            <a
+              href="https://github.com/Trevor24zx/Online-Registration-Form"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
           </div>
+          <div class="view-demo">
+            <a
+              href="https://trevor24zx.github.io/Online-Registration-Form/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="project-overlay">
+          <p>
+            Online Registration Form built with HTML & CSS using a mobile-first
+            approach
+          </p>
+          <div class="code-source slide">
+            <a
+              href="https://github.com/Trevor24zx/Online-Registration-Form"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
+          </div>
+          <div class="view-demo slide">
+            <a
+              href="https://trevor24zx.github.io/Online-Registration-Form/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
+          </div>
+        </div>
       </div>
 
-      <div class="profile-container" id="profile">
-
-          <p class="profile-title">About Me</p>
-
-          <div class="about-container">
-               <div class="intro-container">
-                  <p>Hello! My name is Trevor Thompson and I'm a Front-End Developer based in Bend, Oregon.</p>
-                  <p>I am a person who is highly passionate about development technologies and how things operate behind the scenes. I'm primarily focused on creating mobile-first responsive websites and web applications. I'm constantly learning new web technologies and
-                  ways to improve development to make components run as efficiently as possible.
-                  </p>
-              </div>
-              <hr class="style-three">
-              <h2 class="skills-title">My Skills</h2>
-                  <ul class="skills-container">
-                   <li class="skills">
-                      <img src="images/svg/html-5.svg" alt="HTML5" class="svg-icons">
-                      <p>HTML5</p>
-                   </li>
-                   <li class="skills">   
-                       <img src="images/svg/css-3_official.svg" alt="CSS3" class="svg-icons">
-                       <p>CSS3</p>
-                      </li>
-                   <li class="skills">
-                       <img src="images/svg/javascript.svg" alt="Javascript" class="svg-icons">
-                       <p>JavaScript</p>
-                   </li>
-                   <li class="skills">
-                       <img src="images/svg/bootstrap.svg" alt="bootstrap" class="svg-icons">
-                       <p>Bootstrap</p>
-                   </li>
-                   <li class="skills">
-                       <img src="images/svg/git-icon.svg" alt="Git Icon" class="svg-icons">
-                       <p>Git</p>
-                   </li>
-                   <li class="skills">
-                       <img src="images/svg/node-sass.svg" alt="Node Sass" class="svg-icons">
-                       <p>Sass</p>
-                   </li>
-                  </ul>
+      <div class="project-container">
+        <div class="image-container" id="web">
+          <img
+            src="images/webappdashboard.JPG"
+            alt="Web Application Dashboard"
+            class="project-image"
+          />
+        </div>
+        <hr class="style-two" />
+        <div class="mobile-overlay">
+          <p>Web Application Dashboard built with HTML, CSS and JavaScript</p>
+          <div class="code-source">
+            <a
+              href="https://github.com/Trevor24zx/WebApp-Dashboard"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
           </div>
+          <div class="view-demo">
+            <a
+              href="https://trevor24zx.github.io/WebApp-Dashboard/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="project-overlay">
+          <p>Web Application Dashboard built with HTML, CSS and JavaScript</p>
+          <div class="code-source slide">
+            <a
+              href="https://github.com/Trevor24zx/WebApp-Dashboard"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
+          </div>
+          <div class="view-demo slide">
+            <a
+              href="https://trevor24zx.github.io/WebApp-Dashboard/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
+          </div>
+        </div>
       </div>
 
-      <!-- Portfolio Page -->
-
-      <p class="portfolio-title" id="portfolio">Portfolio</p>
-
-      <div class="portfolio-container" >
-          
-          
-
-          <div class="project-container">
-
-              <div class="image-container">
-                  <img src="images/TheCodeReview.JPG" alt="Online Registration Form" class="project-image">
-              </div>
-                  <hr class="style-two">
-
-              <div class="mobile-overlay">
-                  <p>Online Registration Form built with HTML and CSS</p>
-                  <div class="code-source">
-                      <a href="https://github.com/Trevor24zx/Online-Registration-Form" target="_blank" class="overlay-buttons">Source Code
-                           <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                       </a>
-                  </div>
-                  <div class="view-demo">
-                      <a href="https://trevor24zx.github.io/Online-Registration-Form/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                      </a>
-                  </div>
-              </div>
-
-              <div class="project-overlay">
-                  <p>Online Registration Form built with HTML & CSS using a mobile-first approach</p>
-                  <div class="code-source slide">
-                      <a href="https://github.com/Trevor24zx/Online-Registration-Form" target="_blank" class="overlay-buttons">Source Code
-                          <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                      </a>
-                  </div>
-                  <div class="view-demo slide">
-                      <a href="https://trevor24zx.github.io/Online-Registration-Form/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                      </a>
-                  </div>
-              </div>
+      <div class="project-container">
+        <div class="image-container">
+          <img
+            src="images/employeeDirectory.JPG"
+            alt="API Employee Directory"
+            class="project-image"
+          />
+        </div>
+        <hr class="style-two" />
+        <div class="mobile-overlay">
+          <p>API Employee Directory built with HTML, CSS and JavaScript</p>
+          <div class="code-source">
+            <a
+              href="https://github.com/Trevor24zx/API-Employee-Directory"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
           </div>
-
-          <div class="project-container">
-
-              <div class="image-container" id="web">
-                  <img src="images/webappdashboard.JPG" alt="Web Application Dashboard" class="project-image">
-              </div>
-              <hr class="style-two">
-                  <div class="mobile-overlay">
-                      <p>Web Application Dashboard built with HTML, CSS and JavaScript</p>
-                      <div class="code-source">
-                          <a href="https://github.com/Trevor24zx/WebApp-Dashboard" target="_blank" class="overlay-buttons">Source Code
-                               <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                          </a>
-                      </div>
-                       <div class="view-demo">
-                          <a href="https://trevor24zx.github.io/WebApp-Dashboard/" class="overlay-buttons" target="_blank">View Demo
-                              <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                          </a>
-                  </div>
-                  </div>
-
-              <div class="project-overlay">
-                  <p>Web Application Dashboard built with HTML, CSS and JavaScript</p>
-                  <div class="code-source slide">
-                          <a href="https://github.com/Trevor24zx/WebApp-Dashboard" target="_blank" class="overlay-buttons">Source Code
-                                  <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                          </a>
-                  </div>
-                  <div class="view-demo slide">
-                      <a href="https://trevor24zx.github.io/WebApp-Dashboard/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                      </a>
-                  </div>
-              </div>
+          <div class="view-demo">
+            <a
+              href="https://trevor24zx.github.io/API-Employee-Directory/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
           </div>
+        </div>
 
-          <div class="project-container">
-              <div class="image-container">
-                   <img src="images/employeeDirectory.JPG" alt="API Employee Directory" class="project-image">
-              </div>
-              <hr class="style-two">
-              <div class="mobile-overlay">
-                   <p>API Employee Directory built with HTML, CSS and JavaScript</p>
-                   <div class="code-source">
-                          <a href="https://github.com/Trevor24zx/API-Employee-Directory" target="_blank" class="overlay-buttons">Source Code
-                              <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                          </a>
-                      </div>
-                      <div class="view-demo">
-                          <a href="https://trevor24zx.github.io/API-Employee-Directory/" class="overlay-buttons" target="_blank">View Demo
-                              <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                          </a>
-                      </div>
-                  </div>
-
-              <div class="project-overlay">
-                  <p>API Employee Directory built with HTML, CSS and JavaScript</p>
-                  <div class="code-source slide">
-                      <a href="https://github.com/Trevor24zx/API-Employee-Directory" target="_blank" class="overlay-buttons">Source Code
-                          <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                      </a>
-                  </div>
-                  <div class="view-demo slide">
-                      <a href="https://trevor24zx.github.io/API-Employee-Directory/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                      </a>
-                  </div>
-              </div>
+        <div class="project-overlay">
+          <p>API Employee Directory built with HTML, CSS and JavaScript</p>
+          <div class="code-source slide">
+            <a
+              href="https://github.com/Trevor24zx/API-Employee-Directory"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
           </div>
-
-          <div class="project-container">
-
-              <div class="image-container">
-                  <img src="images/wheelofsuccess.JPG" alt="Wheel of Success" class="project-image wheel">
-              </div>
-                  <hr class="style-two">
-
-              <div class="mobile-overlay">
-                  <p>Random Phrase guessing game built with HTML, CSS and JavaScript</p>
-                  <div class="code-source">
-                          <a href="https://github.com/Trevor24zx/Game-Show-App" target="_blank" class="overlay-buttons">Source Code
-                              <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                          </a>
-                  </div>
-                  <div class="view-demo">
-                      <a href="https://trevor24zx.github.io/Game-Show-App/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                      </a>
-                  </div>
-              </div>
-          
-              <div class="project-overlay">
-                  <p>Random Phrase guessing game built with HTML, CSS and JavaScript</p>
-                  <div class="code-source slide">
-                       <a href="https://github.com/Trevor24zx/Game-Show-App" target="_blank" class="overlay-buttons">Source Code
-                          <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                      </a>
-                  </div>
-                  <div class="view-demo slide">
-                      <a href="https://trevor24zx.github.io/Game-Show-App/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                      </a>
-                  </div>
-              </div>
+          <div class="view-demo slide">
+            <a
+              href="https://trevor24zx.github.io/API-Employee-Directory/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
           </div>
-
-          <div class="project-container">
-
-              <div class="image-container">
-                  <img src="images/interactivephotogallery.JPG" alt="Interactive Photo Gallery" class="project-image">
-              </div>
-                  <hr class="style-two">
-
-                  <div class="mobile-overlay">
-                      <p>Interactive Photo Gallery built with HTML, CSS and Lightbox.js</p>
-                      <div class="code-source">
-                          <a href="https://github.com/Trevor24zx/Interactive-Photo-Gallery" target="_blank" class="overlay-buttons">Source Code
-                              <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                          </a>
-                       </div>
-                  <div class="view-demo">
-                      <a href="https://trevor24zx.github.io/Interactive-Photo-Gallery/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                      </a>
-                  </div>
-              </div>
-
-              <div class="project-overlay">
-                  <p>Interactive Photo Gallery built with HTML, CSS and Lightbox.js</p>
-                  <div class="code-source slide">
-                      <a href="https://github.com/Trevor24zx/Interactive-Photo-Gallery" target="_blank" class="overlay-buttons">Source Code
-                          <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                      </a>
-                  </div>
-                  <div class="view-demo slide">
-                      <a href="https://trevor24zx.github.io/Interactive-Photo-Gallery/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="source-image demo-image">
-                      </a>
-                  </div>
-              </div>
-          </div>
-
-          <div class="project-container">
-
-              <div class="image-container">
-                  <img src="images/webstyleguide.JPG" alt="Web Style Guide" class="project-image">
-              </div>
-              <hr class="style-two">
-
-              <div class="mobile-overlay"> 
-                  <p>Web Style Guide built with HTML, CSS and Sass</p>
-                  <div class="code-source">
-                          <a href="https://github.com/Trevor24zx/Web-Style-Guide" target="_blank" class="overlay-buttons">Source Code
-                                  <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                          </a>
-                  </div>
-                  <div class="view-demo">
-                      <a href="https://trevor24zx.github.io/Web-Style-Guide/" class="overlay-buttons" target="_blank">View Demo
-                          <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="demo-image">
-                      </a>
-                  </div>
-              </div>
-
-              <div class="project-overlay">
-                  <p>Web Style Guide built with HTML, CSS and Sass</p>
-                  <div class="code-source slide">
-                          <a href="https://github.com/Trevor24zx/Web-Style-Guide" target="_blank" class="overlay-buttons">Source Code
-                                  <img src="images/svg/html-coding.svg" alt="GitHub Logo" class="source-image">
-                          </a>
-                      </div>
-                      <div class="view-demo slide">
-                          <a href="https://trevor24zx.github.io/Web-Style-Guide/" class="overlay-buttons" target="_blank">View Demo
-                                  <img src="images/svg/github-icon.svg" alt="GitHub Logo" class="source-image demo-image">
-                          </a>
-                      </div>
-              </div>
-          </div>
+        </div>
       </div>
 
-</body>
+      <div class="project-container">
+        <div class="image-container">
+          <img
+            src="images/wheelofsuccess.JPG"
+            alt="Wheel of Success"
+            class="project-image wheel"
+          />
+        </div>
+        <hr class="style-two" />
+
+        <div class="mobile-overlay">
+          <p>Random Phrase guessing game built with HTML, CSS and JavaScript</p>
+          <div class="code-source">
+            <a
+              href="https://github.com/Trevor24zx/Game-Show-App"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
+          </div>
+          <div class="view-demo">
+            <a
+              href="https://trevor24zx.github.io/Game-Show-App/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="project-overlay">
+          <p>Random Phrase guessing game built with HTML, CSS and JavaScript</p>
+          <div class="code-source slide">
+            <a
+              href="https://github.com/Trevor24zx/Game-Show-App"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
+          </div>
+          <div class="view-demo slide">
+            <a
+              href="https://trevor24zx.github.io/Game-Show-App/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="image-container">
+          <img
+            src="images/interactivephotogallery.JPG"
+            alt="Interactive Photo Gallery"
+            class="project-image"
+          />
+        </div>
+        <hr class="style-two" />
+
+        <div class="mobile-overlay">
+          <p>Interactive Photo Gallery built with HTML, CSS and Lightbox.js</p>
+          <div class="code-source">
+            <a
+              href="https://github.com/Trevor24zx/Interactive-Photo-Gallery"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
+          </div>
+          <div class="view-demo">
+            <a
+              href="https://trevor24zx.github.io/Interactive-Photo-Gallery/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="project-overlay">
+          <p>Interactive Photo Gallery built with HTML, CSS and Lightbox.js</p>
+          <div class="code-source slide">
+            <a
+              href="https://github.com/Trevor24zx/Interactive-Photo-Gallery"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
+          </div>
+          <div class="view-demo slide">
+            <a
+              href="https://trevor24zx.github.io/Interactive-Photo-Gallery/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="source-image demo-image"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="image-container">
+          <img
+            src="images/webstyleguide.JPG"
+            alt="Web Style Guide"
+            class="project-image"
+          />
+        </div>
+        <hr class="style-two" />
+
+        <div class="mobile-overlay">
+          <p>Web Style Guide built with HTML, CSS and Sass</p>
+          <div class="code-source">
+            <a
+              href="https://github.com/Trevor24zx/Web-Style-Guide"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
+          </div>
+          <div class="view-demo">
+            <a
+              href="https://trevor24zx.github.io/Web-Style-Guide/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="demo-image"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="project-overlay">
+          <p>Web Style Guide built with HTML, CSS and Sass</p>
+          <div class="code-source slide">
+            <a
+              href="https://github.com/Trevor24zx/Web-Style-Guide"
+              target="_blank"
+              class="overlay-buttons"
+              >Source Code
+              <img
+                src="images/svg/html-coding.svg"
+                alt="GitHub Logo"
+                class="source-image"
+              />
+            </a>
+          </div>
+          <div class="view-demo slide">
+            <a
+              href="https://trevor24zx.github.io/Web-Style-Guide/"
+              class="overlay-buttons"
+              target="_blank"
+              >View Demo
+              <img
+                src="images/svg/github-icon.svg"
+                alt="GitHub Logo"
+                class="source-image demo-image"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    
+  </footer>
+
+  </body>
 </html>
