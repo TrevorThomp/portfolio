@@ -11,3 +11,22 @@
   background-color: #04acaf;
   border: 3px solid #04acaf;
 }
+
+.overlay-buttons:hover {
+  color: #04acaf;
+}
+
+.skills:hover {
+  transform: scale(1.2);
+}
+
+.contact-form-text:focus {
+  box-shadow: 0px 0px 5px 2px #04acaf;
+}
+
+.contact-info-icon:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: #04acaf;
+  border: 1px #04acaf solid;
+}
