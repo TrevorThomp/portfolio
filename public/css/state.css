@@ -30,3 +30,7 @@
   background-color: #04acaf;
   border: 1px #04acaf solid;
 }
+
+.overlay-buttons:hover {
+  color: #fff;
+}
