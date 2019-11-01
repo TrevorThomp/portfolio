@@ -1,0 +1,68 @@
+/* Header and Navbar Styles */
+.landing-container {
+  background: url("../images/wood.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  padding: 5px;
+  background-color: black;
+  background-color: transparent;
+  
+}
+
+.navbar ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  display: inline-block;
+  margin: 0 1.2em;
+  transition: 0.4s;
+  font-size: 1em;
+  color: white;
+}
+
+.nav-links {
+  color: white;
+  transition: .1s;
+}
+
+.nav-links:hover {
+  color: #04acaf;
+}
+
+.sticky {
+  position: fixed;
+  background-color: #262626;
+  border-bottom: 3px solid #04acaf;
+  z-index: 200;
+  top: 0;
+  width: 100%;
+  transition: 1s ease-in;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+#top-name {
+  display: inline-block;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  font-size: 1.2em;
+  transition: .4s ;
+}
+
+#full-name {
+  color: white;
+}
