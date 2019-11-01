@@ -35,10 +35,6 @@
   transition: 0.1s;
 }
 
-.nav-links:hover {
-  color: #04acaf;
-}
-
 .sticky {
   position: fixed;
   background-color: #262626;
@@ -100,10 +96,6 @@
   transition: 1s;
 }
 
-.button:hover {
-  cursor: pointer;
-}
-
 /* Down Arrow */
 
 .center-con {
@@ -123,12 +115,6 @@
   width: 70px;
   height: 70px;
   transition: 0.3s ease-in-out;
-}
-
-.round:hover {
-  cursor: pointer;
-  background-color: #04acaf;
-  border: 3px solid #04acaf;
 }
 
 .dropdown {
