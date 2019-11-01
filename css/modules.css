@@ -298,10 +298,6 @@
   padding: 8px;
 }
 
-.overlay-buttons:hover {
-  color: #04acaf;
-}
-
 .source-image,
 .demo-image {
   position: absolute;
@@ -378,10 +374,6 @@
   transition: 0.5s ease-in-out;
 }
 
-.skills:hover {
-  transform: scale(1.2);
-}
-
 .skills p {
   margin-top: 0px;
   font-size: 1.1em;
@@ -400,7 +392,7 @@
 
 /* Contact Me Section */
 .contact-container {
-  background: url("../images/wood.jpg") no-repeat center center fixed;
+  background: url("../assets/wood.jpg") no-repeat center center fixed;
   background-size: cover;
   padding-bottom: 15px;
   height: 120vh;
@@ -434,10 +426,6 @@
   margin: 20px 0;
   border: 0;
   padding: 15px 20px;
-}
-
-.contact-form-text:focus {
-  box-shadow: 0px 0px 5px 2px #04acaf;
 }
 
 textarea.contact-form-text {
@@ -552,11 +540,4 @@ textarea.contact-form-text {
   background-color: transparent;
   color: white;
   transition: 0.2s;
-}
-
-.contact-info-icon:hover {
-  transform: scale(1.1);
-  color: white;
-  background-color: #04acaf;
-  border: 1px #04acaf solid;
 }
