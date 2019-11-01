@@ -1,0 +1,13 @@
+.nav-links:hover {
+  color: #04acaf;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.round:hover {
+  cursor: pointer;
+  background-color: #04acaf;
+  border: 3px solid #04acaf;
+}
