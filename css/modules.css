@@ -1,6 +1,6 @@
 /* Header and Navbar Styles */
 .landing-container {
-  background: url("../images/wood.jpg") no-repeat center center fixed;
+  background: url("../assets/wood.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
 }
