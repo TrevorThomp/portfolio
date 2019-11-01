@@ -1,0 +1,47 @@
+@import url('reset.css');
+@import url('layouts.css');
+@import url('modules.css');
+@import url('state.css');
+
+html { 
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 100%;
+  color: white;
+  overflow-x: hidden;
+  background-color: #c0c2c4;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+header {
+  width: 100%;
+}
+
+img {
+  border-style: none;
+}
