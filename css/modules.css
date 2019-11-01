@@ -66,3 +66,127 @@
 #full-name {
   color: white;
 }
+
+/* Home Main Page */
+.container {
+    height: 75vh;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+
+}
+
+.name {
+    color: #04acaf;
+}
+
+.description p {
+    color: white; 
+    font-size: 1.5em;
+    margin: 3px;
+}
+
+.button {
+    color: white;
+    border: 2px solid white;
+    font-size: 1.2em;
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    transition: 1s;
+}
+
+.button:hover {
+    cursor: pointer
+}
+
+/* Down Arrow */
+
+.center-con {
+    display: flex;
+    position: relative;
+    top: 160px;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+
+.round {
+    position: relative;
+    border: 3px solid #fff;
+    width: 70px;
+    height: 70px;
+    transition: 0.3s ease-in-out;
+}
+
+.round:hover {
+    cursor: pointer;
+    background-color: #04acaf;
+    border: 3px solid #04acaf;
+}
+
+.dropdown {
+    z-index: 100;
+    height: 3px;
+    margin:1px;
+    width: 21px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+.dropdown:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+.dropdown:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+.dropdown:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+.dropdown:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round:hover .dropdown:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover .dropdown:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover .dropdown:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
