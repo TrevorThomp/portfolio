@@ -12,10 +12,6 @@
   border: 3px solid #04acaf;
 }
 
-.overlay-buttons:hover {
-  color: #04acaf;
-}
-
 .skills:hover {
   transform: scale(1.2);
 }
@@ -31,6 +27,4 @@
   border: 1px #04acaf solid;
 }
 
-.overlay-buttons:hover {
-  color: #fff;
-}
+

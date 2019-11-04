@@ -329,6 +329,10 @@
   font-weight: 100;
 }
 
+.mobile-overlay p {
+  margin-bottom: 15px;
+}
+
 /* About Me Section */
 
 .profile-title {
@@ -366,6 +370,7 @@
   font-style: italic;
   letter-spacing: 1px;
   color: black;
+  text-align: center;
 }
 
 .skills {
