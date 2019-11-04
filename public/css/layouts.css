@@ -62,4 +62,8 @@
   .intro-container {
     text-align: center;
   }
+
+  .overlay-buttons:hover {
+    color: #fff;
+  }
 }
