@@ -23,3 +23,15 @@ Start time: 8:30am
 Finish time: 10:10am
 
 Actual time needed to complete: 1 hour 40 minutes
+
+## Feature #3: Add Functionality
+
+Number and name of feature: Add Functionality
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 6:00am
+
+Finish time: 7:30am
+
+Actual time needed to complete: 1 hour 30 minutes
